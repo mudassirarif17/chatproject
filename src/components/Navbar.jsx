@@ -20,12 +20,12 @@ const Navbar = () => {
 
     return (
         <div >
-            <div onClick={()=>setIsExpanded(!isExpanded)} className={`w-[35px] h-[35px] bg-[#FF8C8C] absolute top-[58px] left-[280px] px-2 py-2 rounded-full flex justify-center items-center ${!isExpanded ? "left-[60px]" : ""}`}><FaArrowRight className='text-white' /></div>
+            <div onClick={()=>setIsExpanded(!isExpanded)} className={`w-[35px] h-[35px] bg-[#FF8C8C] absolute top-[58px] left-[260px] px-2 py-2 rounded-full flex justify-center items-center ${!isExpanded ? "left-[60px]" : "left-[260px]"}`}><FaArrowRight className='text-white' /></div>
             
             <motion.div 
                 animate={isExpanded ? "expanded" : "nonexpanded"}
                 variants={variants}
-             className="navbar bg-[#FDFDFD]  w-[20vw] h-[100vh] flex flex-col items-center border border-r-1">
+             className="navbar bg-[#FDFDFD]  w-[25vw] h-[100vh] flex flex-col items-center border border-r-1">
 
                 <div className="logo flex items-center mt-12 font-semibold text-2xl"><GiReceiveMoney className='mx-3 text-4xl text-[#FF8C8C]' /><span className={!isExpanded ? "hidden" : "block"}>Money Transfer</span></div>
 
