@@ -1,14 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
-import Dashboard from './components/Dashboard';
+import HeroSection from './components/HeroSection';
+import AboutSection from './components/AboutSection';
+
 
 function App() {
   return (
-    <div className="flex">
+    <>
       <Navbar/>
-      <Dashboard/>
-    </div>
+      <HeroSection/>
+      <AboutSection/>
+    </>
   );
 }
 
