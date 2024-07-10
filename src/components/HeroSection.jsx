@@ -8,7 +8,7 @@ const HeroSection = () => {
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['Hi, I’m Mudassir' , 'I’m Developer'], // Strings to display
+            strings: ['Hi, I’m Mudassir' , 'I’m a developer'], // Strings to display
             typeSpeed: 50, // Speed in milliseconds
             backSpeed: 50,
             backDelay: 1500,

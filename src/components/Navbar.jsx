@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-        <div className="navbar flex bg-[#19376D] text-white h-[8vh] md:h-[12vh] justify-around items-center sticky top-0">
+        <div className="navbar shadow-2xl flex bg-[#19376D] text-white h-[8vh] md:h-[12vh] justify-around items-center sticky top-0">
             <div className="logo text-xl md:text-3xl font-semibold cursor-pointer">Portfolio</div>
             <ul className="nav-item hidden md:flex space-x-8">
                 <li className='cursor-pointer text-xl'>About</li>
