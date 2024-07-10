@@ -1,8 +1,8 @@
 import React from 'react';
-import aboutimg from "../img/about.png"
 import image2 from "../img/image 2.png"
 import image3 from "../img/image 3.png"
 import image4 from "../img/image 4.png"
+import avatar from '../img/maddyavtar.png'
 
 const AboutSection = () => {
     return (
@@ -13,7 +13,7 @@ const AboutSection = () => {
 
                     <div className="sub-about-left w-[40vw] hidden md:block">
                         <h1 className='text-white text-3xl mx-10 py-5'>ABOUT</h1>
-                        <img className='w-[400px]' src={aboutimg} alt="" />
+                        <img className='w-[400px]' src={avatar} alt="" />
                     </div>
 
                     <div className="sub-about-right w-[90vw] md:w-[40vw] my-auto">
