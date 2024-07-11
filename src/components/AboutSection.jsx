@@ -16,7 +16,7 @@ const AboutSection = () => {
                         <img className='w-[400px]' src={avatar} alt="" />
                     </div>
 
-                    <div className="sub-about-right w-[90vw] md:w-[40vw] my-auto">
+                    <div className="sub-about-right w-[70vw] md:w-[40vw] my-auto">
 
                         <div className="card flex items-center md:w-[90%] w-[90vw] my-4 md:my-0 cursor-pointer hover:bg-gray-500 md:p-5 rounded-xl">
                             <img className='w-[50px] h-[50px]' src={image2} alt="" />
