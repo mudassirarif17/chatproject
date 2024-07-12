@@ -23,13 +23,13 @@ const Projects = () => {
                                 <h1 className='text-white md:w-[19vw] w-[90%] mx-auto font-bold'>Project A</h1>
                                 <p className='text-white md:w-[19vw] w-[90%] mx-auto '>This is a project made to learn the latest languages by building an app.</p>
                                 <div className="skill md:w-[19vw] w-[90%] mx-auto font-semibold flex justify-between text-white my-3">
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>React</span>
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>React</span>
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>React</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>React</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>React</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>React</span>
                                 </div>
                                 <div className="code md:w-[19vw] w-[90%] mx-auto font-semibold flex justify-center  text-white my-3 gap-2">
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>Demo</span>
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>Source</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>Demo</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>Source</span>
                                 </div>
                             </div>
 
@@ -45,13 +45,13 @@ const Projects = () => {
                                 <h1 className='text-white md:w-[19vw] w-[90%] mx-auto font-bold'>Project A</h1>
                                 <p className='text-white md:w-[19vw] w-[90%] mx-auto '>This is a project made to learn the latest languages by building an app.</p>
                                 <div className="skill md:w-[19vw] w-[90%] mx-auto font-semibold flex justify-between text-white my-3">
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>React</span>
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>React</span>
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>React</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>React</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>React</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>React</span>
                                 </div>
                                 <div className="code md:w-[19vw] w-[90%] mx-auto font-semibold flex justify-center  text-white my-3 gap-2">
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>Demo</span>
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>Source</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>Demo</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>Source</span>
                                 </div>
                             </div>
 
@@ -67,13 +67,13 @@ const Projects = () => {
                                 <h1 className='text-white md:w-[19vw] w-[90%] mx-auto font-bold'>Project A</h1>
                                 <p className='text-white md:w-[19vw] w-[90%] mx-auto '>This is a project made to learn the latest languages by building an app.</p>
                                 <div className="skill md:w-[19vw] w-[90%] mx-auto font-semibold flex justify-between text-white my-3">
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>React</span>
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>React</span>
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>React</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>React</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>React</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>React</span>
                                 </div>
                                 <div className="code md:w-[19vw] w-[90%] mx-auto font-semibold flex justify-center  text-white my-3 gap-2">
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>Demo</span>
-                                    <span className='bg-[#19376D] px-3 rounded-2xl cursor-pointer'>Source</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>Demo</span>
+                                    <span className='bg-[#19376D] px-3 rounded-2xl'>Source</span>
                                 </div>
                             </div>
 

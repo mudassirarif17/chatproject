@@ -18,7 +18,7 @@ const AboutSection = () => {
 
                     <div className="sub-about-right w-[70vw] md:w-[40vw] my-auto">
 
-                        <div className="card flex items-center md:w-[90%] w-[90vw] my-4 md:my-0 cursor-pointer hover:bg-gray-500 md:p-5 rounded-xl">
+                        <div className="card flex items-center md:w-[90%] w-[90vw] my-4 md:my-0 hover:bg-gray-500 md:p-5 rounded-xl">
                             <img className='w-[50px] h-[50px]' src={image2} alt="" />
                             <div className='desc'>
                                 <h1 className='text-white text-xl font-semibold'>Frontend Developer</h1>
@@ -27,7 +27,7 @@ const AboutSection = () => {
                             </div>
                         </div>
 
-                        <div className="card flex items-center md:w-[90%] w-[90vw] my-4 md:my-0 cursor-pointer hover:bg-gray-500 md:p-5 rounded-xl">
+                        <div className="card flex items-center md:w-[90%] w-[90vw] my-4 md:my-0 hover:bg-gray-500 md:p-5 rounded-xl">
                             <img className='w-[50px] h-[50px]' src={image3} alt="" />
                             <div className='desc'>
                                 <h1 className='text-white text-xl font-semibold'>Backend Developer</h1>
@@ -36,7 +36,7 @@ const AboutSection = () => {
                             </div>
                         </div>
 
-                        <div className="card flex items-center md:w-[90%] w-[90vw] my-4 md:my-0 cursor-pointer hover:bg-gray-500 md:p-5 rounded-xl">
+                        <div className="card flex items-center md:w-[90%] w-[90vw] my-4 md:my-0 hover:bg-gray-500 md:p-5 rounded-xl">
                             <img className='w-[50px] h-[50px]' src={image4} alt="" />
                             <div className='desc'>
                                 <h1 className='text-white text-xl font-semibold'>UI Designer</h1>

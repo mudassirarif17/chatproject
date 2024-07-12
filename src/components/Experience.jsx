@@ -65,7 +65,7 @@ const Experience = () => {
 
                 <div className="exp-right">
 
-                    <div className="card my-5 flex justify-center items-center cursor-pointer w-[90vw] mx-auto md:w-[32vw] md:mx-0 bg-[#19376D] shadow-2xl shadow-black rounded-xl py-2">
+                    <div className="card my-5 flex justify-center items-center w-[90vw] mx-auto md:w-[32vw] md:mx-0 bg-[#19376D] shadow-2xl shadow-black rounded-xl py-2">
                         <div className="img mr-8">
                             <img src={google} alt="" />
                         </div>
@@ -79,7 +79,7 @@ const Experience = () => {
                         </div>
                     </div>
 
-                    <div className="card my-5 flex justify-center items-center cursor-pointer w-[90vw] mx-auto md:w-[32vw] md:mx-0 bg-[#19376D] shadow-2xl shadow-black rounded-xl py-2">
+                    <div className="card my-5 flex justify-center items-center w-[90vw] mx-auto md:w-[32vw] md:mx-0 bg-[#19376D] shadow-2xl shadow-black rounded-xl py-2">
                         <div className="img mr-8">
                             <img src={google} alt="" />
                         </div>
@@ -93,7 +93,7 @@ const Experience = () => {
                         </div>
                     </div>
 
-                    <div className="card my-5 flex justify-center items-center cursor-pointer w-[90vw] mx-auto md:w-[32vw] md:mx-0 bg-[#19376D] shadow-2xl shadow-black rounded-xl py-2">
+                    <div className="card my-5 flex justify-center items-center w-[90vw] mx-auto md:w-[32vw] md:mx-0 bg-[#19376D] shadow-2xl shadow-black rounded-xl py-2">
                         <div className="img mr-8">
                             <img src={google} alt="" />
                         </div>
