@@ -3,7 +3,7 @@ import project from "../img/image 1.png";
 
 const Projects = () => {
     return (
-        <div className='projects bg-[#19376D]'>
+        <div className='projects bg-[#19376D] py-10'>
 
             <div className="sub-projects w-[80vw] mx-auto py-5">
 
