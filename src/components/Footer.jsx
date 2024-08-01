@@ -27,7 +27,7 @@ const Footer = () => {
 
                     <a target='_blank' href='https://www.linkedin.com/in/mudassir-arif-42a918242/' className='flex items-center gap-5 my-5'>
                         <div><GrLinkedin className='text-white text-3xl'/></div>
-                        <p className='text-white font-semibold'>www.linkedin.com/in/mudassir-arif-42a918242/</p>
+                        <p className='text-white font-semibold text-sm'>www.linkedin.com/in/mudassir-arif-42a918242/</p>
                     </a>
 
                     <a target='_blank' href='https://github.com/mudassirarif17' className='flex items-center gap-5 my-5'>
