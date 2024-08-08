@@ -2,6 +2,7 @@ import React from 'react'
 import project from "../img/image 1.png";
 import mystery from "../img/mystery.png";
 import dashboard from "../img/dashboard.png";
+import tuitional from "../img/tuitional.png";
 
 const Projects = () => {
     const projects = [
@@ -25,6 +26,16 @@ const Projects = () => {
             skill3 : "Express.JS",
             source : "https://github.com/mudassirarif17/ecommerce-react/",
             demo : ""
+        },
+        {
+            name : "Tuitional Education",
+            desc : "",
+            image : tuitional,
+            skill1 : "React.Js",
+            skill2 : "Tailwind",
+            skill3 : "",
+            source : "https://github.com/mudassirarif17/ecommerce-react/",
+            demo : "https://onboard-tut.netlify.app/"
         },
     ]
     return (
@@ -51,10 +62,10 @@ const Projects = () => {
                                 <div className="skill md:w-[21vw] w-[90%] mx-auto font-semibold flex justify-between text-white my-3">
                                     <span className='bg-[#19376D] px-3 rounded-2xl'>{data.skill1}</span>
                                     <span className='bg-[#19376D] px-3 rounded-2xl'>{data.skill2}</span>
-                                    <span className='bg-[#19376D] px-3 rounded-2xl'>{data.skill3}</span>
+                                    <span className={`bg-[#19376D] px-3 rounded-2xl ${data.skill3 == "" ? "hidden" : ""}`}>{data.skill3}</span>
                                 </div>
                                 <div className="code md:w-[19vw] w-[90%] mx-auto font-semibold flex justify-center  text-white my-3 gap-2">
-                                    <a href="" className={`bg-[#19376D] ${data.demo == "" ? "hidden" : ""} px-3 rounded-2xl`}>Demo</a>
+                                    <a href={data.demo} target='_blank' className={`bg-[#19376D] ${data.demo == "" ? "hidden" : ""} px-3 rounded-2xl`}>Demo</a>
                                     <a href={data.source} target='_blank' className='bg-[#19376D] px-3 rounded-2xl'>Source</a>
                                 </div>
                             </div>
