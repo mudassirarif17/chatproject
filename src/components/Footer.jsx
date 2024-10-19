@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className='footer shadow-top  bg-[#19376D]'>
+    <div id='contacts' className='footer shadow-top  bg-[#19376D]'>
         <div className="footer-sub md:w-[80vw] mx-auto flex md:flex-row flex-col">
 
             <div className="footer-left md:w-[40vw] flex justify-center items-center">

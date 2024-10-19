@@ -13,10 +13,10 @@ const Navbar = () => {
         <div className="navbar shadow-2xl flex bg-[#19376D] text-white h-[8vh] md:h-[12vh] justify-around items-center sticky top-0">
             <div className="logo text-xl md:text-3xl font-semibold cursor-pointer">Portfolio</div>
             <ul className="nav-item hidden md:flex space-x-8">
-                <button className='text-xl'>About</button>
-                <button className='text-xl'>Experience</button>
-                <button className='text-xl'>Projects</button>
-                <button className='text-xl'>Contact</button>
+                <a href='#about' className='text-xl'>About</a>
+                <a href='#experience' className='text-xl'>Experience</a>
+                <a href='#projects' className='text-xl'>Projects</a>
+                <a href='#contacts' className='text-xl'>Contact</a>
             </ul>
             <div className="hamburger block md:hidden">
                 <RxHamburgerMenu onClick={toggleMobileMenu} className='text-white text-3xl font-bold'/>

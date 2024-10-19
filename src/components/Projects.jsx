@@ -39,7 +39,7 @@ const Projects = () => {
         },
     ]
     return (
-        <div className='projects bg-[#19376D] py-10'>
+        <div id='projects' className='projects bg-[#19376D] py-10'>
 
             <div className="sub-projects w-[80vw] mx-auto py-5">
 

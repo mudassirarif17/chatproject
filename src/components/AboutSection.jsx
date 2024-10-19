@@ -7,7 +7,7 @@ import avatar from '../img/maddyavtar.png'
 const AboutSection = () => {
     return (
         <>
-            <div className="about bg-[#19376D]">
+            <div id='about' className="about bg-[#19376D]">
 
                 <div className="sub-about w-[80vw] mx-auto md:bg-[#0C0C0C] flex rounded-lg">
 
@@ -39,9 +39,8 @@ const AboutSection = () => {
                         <div className="card flex items-center md:w-[90%] w-[90vw] my-4 md:my-0 hover:bg-gray-500 md:p-5 rounded-xl">
                             <img className='w-[50px] h-[50px]' src={image4} alt="" />
                             <div className='desc'>
-                                <h1 className='text-white text-xl font-semibold'>UI Designer</h1>
-                                <p className='text-white'>I have designed multiple landing pages and
-                                have created design systems as well</p>
+                                <h1 className='text-white text-xl font-semibold'>DataBase Developer</h1>
+                                <p className='text-white'>I have designed multiple databases and</p>
                             </div>
                         </div>
 
