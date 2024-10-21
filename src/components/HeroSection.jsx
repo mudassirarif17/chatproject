@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import avatar from '../img/maddyavtar.png'
+import mycv from "../img/mycv.pdf"
 
 const HeroSection = () => {
 
@@ -33,7 +34,7 @@ const HeroSection = () => {
                         of experience using React and NodeJS.
                         Reach out if you’d like to learn more!
                     </p>
-                    <button className='bg-[#576CBC] mb-10 text-white px-4 py-2 mx-5 font-semibold rounded-full'>Contact Me</button>
+                    <a href={mycv} target='_blank' className='bg-[#576CBC] mb-10 text-white px-4 py-2 mx-5 font-semibold rounded-full'>Download CV</a>
                 </div>
             </div>
         </>

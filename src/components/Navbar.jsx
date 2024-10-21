@@ -22,11 +22,11 @@ const Navbar = () => {
                 <RxHamburgerMenu onClick={toggleMobileMenu} className='text-white text-3xl font-bold'/>
             </div> 
         </div>
-        <ul id='mblmenu' className={`mblmenu md:hidden ${showmblmenu === false ? 'hidden' : 'flex'}  h-[30vh] w-[50vw] custom-gradient  flex-col items-center justify-center space-y-8 absolute top-[8vh] right-[5vw]`}>
-                <button className='text-xl text-white'>About</button>
-                <button className='text-xl text-white'>Experience</button>
-                <button className='text-xl text-white'>Projects</button>
-                <button className='text-xl text-white'>Contact</button>
+        <ul id='mblmenu' className={`mblmenu md:hidden ${showmblmenu === false ? 'hidden' : 'flex'} bg-[#19376D]  h-[30vh] w-[50vw] custom-gradient  flex-col items-center justify-center space-y-8 fixed top-[8vh] right-[5vw]`}>
+                <a href='#about' className='text-xl text-white'>About</a>
+                <a href='#experience' className='text-xl text-white'>Experience</a>
+                <a href='#projects' className='text-xl text-white'>Projects</a>
+                <a href='#contacts' className='text-xl text-white'>Contact</a>
         </ul>
     </>
   )

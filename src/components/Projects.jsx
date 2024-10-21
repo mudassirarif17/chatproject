@@ -1,8 +1,11 @@
 import React from 'react'
-import project from "../img/image 1.png";
 import mystery from "../img/mystery.png";
 import dashboard from "../img/dashboard.png";
 import tuitional from "../img/tuitional.png";
+import crime from "../img/crime.png";
+import figmatocode from "../img/figmatocode.png";
+import minti from "../img/minti.png";
+import study from "../img/study.png";
 
 const Projects = () => {
     const projects = [
@@ -37,6 +40,46 @@ const Projects = () => {
             source : "https://github.com/mudassirarif17/ecommerce-react/",
             demo : "https://onboard-tut.netlify.app/"
         },
+        {
+            name : "Crime Portal",
+            desc : "",
+            image : crime,
+            skill1 : "React.Js",
+            skill2 : "Tailwind",
+            skill3 : "",
+            source : "",
+            demo : "https://poetic-cannoli-738c64.netlify.app/"
+        },
+        {
+            name : "Figma To React",
+            desc : "",
+            image : figmatocode,
+            skill1 : "React.Js",
+            skill2 : "Css3",
+            skill3 : "",
+            source : "",
+            demo : "https://figmatoreact-landing-page.netlify.app/"
+        },
+        {
+            name : "Figma To React",
+            desc : "",
+            image : minti,
+            skill1 : "React.Js",
+            skill2 : "Css3",
+            skill3 : "",
+            source : "",
+            demo : "https://minti-landing-page.netlify.app/"
+        },
+        {
+            name : "Atrac Consultant",
+            desc : "",
+            image : study,
+            skill1 : "HTML",
+            skill2 : "CSS3",
+            skill3 : "JS",
+            source : "",
+            demo : "https://atrac.netlify.app/"
+        },
     ]
     return (
         <div id='projects' className='projects bg-[#19376D] py-10'>
@@ -66,7 +109,7 @@ const Projects = () => {
                                 </div>
                                 <div className="code md:w-[19vw] w-[90%] mx-auto font-semibold flex justify-center  text-white my-3 gap-2">
                                     <a href={data.demo} target='_blank' className={`bg-[#19376D] ${data.demo == "" ? "hidden" : ""} px-3 rounded-2xl`}>Demo</a>
-                                    <a href={data.source} target='_blank' className='bg-[#19376D] px-3 rounded-2xl'>Source</a>
+                                    <a href={data.source} target='_blank' className={`bg-[#19376D] ${data.source == "" ? "hidden" : ""} px-3 rounded-2xl`}>Source</a>
                                 </div>
                             </div>
 
