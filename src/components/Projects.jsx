@@ -6,6 +6,7 @@ import crime from "../img/crime.png";
 import figmatocode from "../img/figmatocode.png";
 import minti from "../img/minti.png";
 import study from "../img/study.png";
+import eamb from "../img/eamb.png";
 
 const Projects = () => {
     const projects = [
@@ -79,6 +80,16 @@ const Projects = () => {
             skill3 : "JS",
             source : "",
             demo : "https://atrac.netlify.app/"
+        },
+        {
+            name : "E Ambulance",
+            desc : "",
+            image : eamb,
+            skill1 : "Laravel",
+            skill2 : "MYSQL",
+            skill3 : "PHP",
+            source : "https://github.com/codewarriorsrapid/code_warriors_techwiz_rapid_rescue",
+            demo : ""
         },
     ]
     return (
